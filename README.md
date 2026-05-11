@@ -1,5 +1,7 @@
 # 📚 AI 个人知识库问答助手
 
+> **中文** · [English](./README.en.md)
+
 基于 **RAG（Retrieval-Augmented Generation）** 的本地知识库问答工具。上传你的 PDF / Word / Markdown / 网页，就能用自然语言提问，回答时会标注引用来源。
 
 > 技术栈：Streamlit + ChromaDB + BGE Embedding + BM25 混合检索 + DeepSeek / 通义千问
