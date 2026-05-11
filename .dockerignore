@@ -1,0 +1,16 @@
+.git
+.gitignore
+.venv
+venv
+__pycache__
+*.pyc
+.pytest_cache
+.idea
+.vscode
+.DS_Store
+data/vector_store/*
+data/documents/*
+data/history.db
+.env
+README.md
+.github

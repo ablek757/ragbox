@@ -1,0 +1,16 @@
+services:
+  app:
+    build: .
+    image: ai-knowledge-base:latest
+    container_name: ai-kb
+    ports:
+      - "8501:8501"
+    env_file:
+      - .env
+    volumes:
+      - ./data:/app/data
+      - hf_cache:/root/.cache/huggingface
+    restart: unless-stopped
+
+volumes:
+  hf_cache:
