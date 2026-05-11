@@ -19,8 +19,8 @@
 ## 🚀 快速开始（本地）
 
 ```bash
-git clone https://github.com/<your-name>/ai-knowledge-base.git
-cd ai-knowledge-base
+git clone https://github.com/ablek757/ragbox.git
+cd ragbox
 
 python -m venv .venv
 .venv\Scripts\activate           # Windows
